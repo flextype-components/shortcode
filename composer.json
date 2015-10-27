@@ -1,6 +1,6 @@
 {
   "name": "force/shortcode",
-  "keywords": ["shortcode", "parser"],
+  "keywords": ["shortcode", "parser", "force"],
   "license": "MIT",
   "homepage": "https://github.com/force-components/Shortcode/issues",
   "description": "The Shortcode class for creating shortcodes",
