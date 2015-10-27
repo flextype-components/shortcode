@@ -70,17 +70,22 @@ function foo($attributes, $content) {
     // return
     return '<span style="color:'.$color.'">'.$content.'</span>';
 }
-```php
+```
+
 Add shortcode {foo color="red"}  
-```
-Shortcode::add('foo', 'foo');
 ```php
-Usage:  
+Shortcode::add('foo', 'foo');
 ```
+
+Usage:  
+```php
 {foo color="red"}Hello World{/foo}
-```html
+```
+
 Result:  
+```html
 <span style="color: red">Hello World</span>  
+```
 
 ### Check if a shortcode has been registered.
 ```php
