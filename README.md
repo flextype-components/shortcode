@@ -1,6 +1,21 @@
-# Shortcode
+# Shortcode Component
+![version](https://img.shields.io/badge/version-1.1.0-brightgreen.svg?style=flat-square "Version")
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/flextype-components/shortcode/blob/master/LICENSE)
 
-The Shortcode Class is a simple regex based parser that allows you to replace simple bbcode-like tags within a HTMLText or HTMLVarchar field when rendered into a content.   
+The Shortcode Component is a simple regex based parser that allows you to replace simple bbcode-like tags within a HTMLText or HTMLVarchar field when rendered into a content.   
+
+
+### Installation
+
+```
+composer require flextype-components/shortcode
+```
+
+### Usage
+
+```php
+use Flextype\Component\Shortcode\Shortcode;
+```
 
 Examples of shortcode tags:  
 
