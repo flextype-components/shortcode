@@ -126,4 +126,4 @@ The shortcode parser does not accept braces within attributes. Thus the followin
 ```
 
 ## License
-See [LICENSE](https://github.com/force-components/Shortcode/blob/master/LICENSE)
+See [LICENSE](https://github.com/flextype-components/shortcode/blob/master/LICENSE)
